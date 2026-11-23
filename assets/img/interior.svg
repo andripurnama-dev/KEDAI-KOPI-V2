@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" role="img" aria-label="Ilustrasi interior kedai kopi dengan lampu gantung">
+  <rect width="800" height="560" fill="#F1E3CC"/>
+  <rect y="360" width="800" height="200" fill="#6B4630"/>
+  <rect y="350" width="800" height="14" fill="#4A2E1F"/>
+  <rect x="60" y="120" width="220" height="190" rx="10" fill="#FBE3B0"/>
+  <path d="M60 215H280M170 120V310" stroke="#8A5A3A" stroke-width="8"/>
+  <rect x="60" y="120" width="220" height="190" rx="10" fill="none" stroke="#4A2E1F" stroke-width="10"/>
+  <g stroke="#2A1710" stroke-width="5"><path d="M470 0V90M600 0V60M690 0V110"/></g>
+  <path d="M430 120h80l-12 -34h-56z" fill="#C77D35"/><ellipse cx="470" cy="128" rx="40" ry="10" fill="#FFD27A"/>
+  <path d="M565 90h70l-10 -30h-50z" fill="#B4532A"/><ellipse cx="600" cy="98" rx="35" ry="9" fill="#FFD27A"/>
+  <path d="M650 140h80l-12 -34h-56z" fill="#C77D35"/><ellipse cx="690" cy="148" rx="40" ry="10" fill="#FFD27A"/>
+  <rect x="320" y="300" width="460" height="64" rx="12" fill="#3B2217"/>
+  <rect x="320" y="290" width="460" height="18" rx="9" fill="#8A5A3A"/>
+  <g fill="#FFF8EE"><rect x="380" y="250" width="46" height="44" rx="8"/><rect x="520" y="250" width="46" height="44" rx="8"/></g>
+  <g fill="#4A2A1A"><ellipse cx="403" cy="252" rx="20" ry="6"/><ellipse cx="543" cy="252" rx="20" ry="6"/></g>
+  <rect x="60" y="400" width="26" height="130" fill="#3B2217"/><rect x="190" y="400" width="26" height="130" fill="#3B2217"/>
+  <rect x="40" y="380" width="196" height="26" rx="10" fill="#C77D35"/>
+  <rect x="640" y="400" width="26" height="130" fill="#3B2217"/><rect x="560" y="380" width="196" height="26" rx="10" fill="#C77D35"/>
+  <g fill="#3F7D4E"><ellipse cx="300" cy="250" rx="16" ry="34" transform="rotate(-20 300 250)"/><ellipse cx="322" cy="250" rx="14" ry="30" transform="rotate(18 322 250)"/></g>
+  <rect x="290" y="262" width="44" height="34" rx="6" fill="#B4532A"/>
+</svg>

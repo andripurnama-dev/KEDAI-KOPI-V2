@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="Ilustrasi secangkir kopi saat senja">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3B2217"/><stop offset=".55" stop-color="#B4532A"/><stop offset="1" stop-color="#E8A547"/>
+    </linearGradient>
+    <linearGradient id="cup" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFF8EE"/><stop offset="1" stop-color="#E9D8C0"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" rx="40" fill="url(#sky)"/>
+  <circle cx="440" cy="190" r="70" fill="#FFD27A" opacity=".9"/>
+  <circle cx="440" cy="190" r="105" fill="#FFD27A" opacity=".25"/>
+  <path d="M0 400 Q150 340 300 390 T600 370 V600 H0Z" fill="#2A1710" opacity=".55"/>
+  <ellipse cx="300" cy="470" rx="190" ry="34" fill="#2A1710" opacity=".6"/>
+  <ellipse cx="300" cy="455" rx="170" ry="28" fill="#F1E3CC"/>
+  <path d="M160 270 H440 V340 Q440 440 300 440 Q160 440 160 340Z" fill="url(#cup)"/>
+  <path d="M440 295 q70 0 70 50 t-70 50" fill="none" stroke="#F1E3CC" stroke-width="22" stroke-linecap="round"/>
+  <ellipse cx="300" cy="272" rx="140" ry="26" fill="#4A2A1A"/>
+  <ellipse cx="300" cy="272" rx="112" ry="17" fill="#6B3E26"/>
+  <path d="M260 270 q40 -14 80 0 q-40 8 -80 0z" fill="#D9A56B" opacity=".8"/>
+  <g class="steam" fill="none" stroke="#FFF3DD" stroke-width="10" stroke-linecap="round" opacity=".75">
+    <path class="s1" d="M250 230 q-26 -40 0 -76 q26 -36 0 -76"/>
+    <path class="s2" d="M300 230 q-26 -40 0 -76 q26 -36 0 -76"/>
+    <path class="s3" d="M350 230 q-26 -40 0 -76 q26 -36 0 -76"/>
+  </g>
+  <style>
+    .steam path{animation:rise 4s ease-in-out infinite}
+    .s2{animation-delay:.8s}.s3{animation-delay:1.6s}
+    @keyframes rise{0%,100%{transform:translateY(8px);opacity:.2}50%{transform:translateY(-10px);opacity:.9}}
+    @media (prefers-reduced-motion:reduce){.steam path{animation:none}}
+  </style>
+</svg>

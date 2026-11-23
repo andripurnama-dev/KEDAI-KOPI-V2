@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Project — Kedai Kopi Senja</title>
+<meta name="description" content="Menu signature, event, dan kolaborasi Kedai Kopi Senja.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Lewati ke konten</a>
+<header class="site-header">
+  <div class="container nav">
+    <a class="logo" href="index.html">☕ Kedai Kopi <span>Senja</span></a>
+    <ul class="menu" id="menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="profil.html">Profil</a></li>
+      <li><a href="project.html" aria-current="page">Project</a></li>
+      <li><a href="kontak.html">Contact</a></li>
+    </ul>
+    <div class="nav-tools">
+      <button class="icon-btn" id="themeToggle" type="button" aria-label="Ganti tema">🌙</button>
+      <button class="icon-btn burger" id="burger" type="button" aria-label="Buka menu" aria-expanded="false" aria-controls="menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <section class="section">
+    <div class="container">
+      <div class="reveal">
+        <span class="eyebrow">Project</span>
+        <h1>Karya &amp; kolaborasi</h1>
+        <p class="lead">Menu, event, dan kerja sama yang kami bangun bersama komunitas.</p>
+        <p class="sim">* Seluruh proyek di bawah adalah contoh data; ganti dengan karya asli.</p>
+      </div>
+      <div class="filters" role="group" aria-label="Filter kategori project">
+        <button class="chip" type="button" data-filter="all" aria-pressed="true">Semua</button>
+        <button class="chip" type="button" data-filter="menu" aria-pressed="false">Menu</button>
+        <button class="chip" type="button" data-filter="event" aria-pressed="false">Event</button>
+        <button class="chip" type="button" data-filter="kolaborasi" aria-pressed="false">Kolaborasi</button>
+      </div>
+      <div class="grid g3" id="projectGrid">
+        <article class="card project" data-cat="menu"><div class="thumb"><img src="assets/img/latte.svg" alt="Latte art hati" loading="lazy" width="400" height="300"></div><div class="card-body"><span class="tag">Menu</span><h3>Senja Latte</h3><p>Espresso, susu, dan gula aren dengan latte art khas.</p></div></article>
+        <article class="card project" data-cat="menu"><div class="thumb"><img src="assets/img/cup.svg" alt="Secangkir kopi saat senja" loading="lazy" width="600" height="600"></div><div class="card-body"><span class="tag">Menu</span><h3>Kopi Tubruk Modern</h3><p>Tubruk klasik dengan biji sangrai medium yang lebih bersih.</p></div></article>
+        <article class="card project" data-cat="event"><div class="thumb"><img src="assets/img/interior.svg" alt="Suasana kedai" loading="lazy" width="800" height="560"></div><div class="card-body"><span class="tag">Event</span><h3>Malam Cupping</h3><p>Mencicipi kopi bersama komunitas setiap akhir pekan.</p></div></article>
+        <article class="card project" data-cat="event"><div class="thumb"><img src="assets/img/latte.svg" alt="Kelas latte art" loading="lazy" width="400" height="300"></div><div class="card-body"><span class="tag">Event</span><h3>Kelas Latte Art</h3><p>Workshop dasar tuang susu untuk pemula.</p></div></article>
+        <article class="card project" data-cat="kolaborasi"><div class="thumb"><img src="assets/img/beans.svg" alt="Biji kopi" loading="lazy" width="400" height="300"></div><div class="card-body"><span class="tag">Kolaborasi</span><h3>Single Origin Series</h3><p>Seri biji dari petani mitra, rilis tiap musim panen.</p></div></article>
+        <article class="card project" data-cat="kolaborasi"><div class="thumb"><img src="assets/img/interior.svg" alt="Pop-up kedai" loading="lazy" width="800" height="560"></div><div class="card-body"><span class="tag">Kolaborasi</span><h3>Pop-up Bersama Seniman</h3><p>Pameran kecil dan kopi spesial dengan seniman lokal.</p></div></article>
+      </div>
+      <p class="empty" id="emptyState">Belum ada project di kategori ini.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container"><div class="cta reveal"><h2>Punya ide kolaborasi?</h2><p>Ceritakan idemu, kita wujudkan bersama.</p>
+      <div class="btn-row" style="justify-content:center"><a class="btn btn-ghost" href="kontak.html">Hubungi Kami</a></div></div></div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container foot">
+    <div><h3>☕ Kedai Kopi Senja</h3><p>Kopi hangat untuk setiap senja.</p></div>
+    <div><h3>Halaman</h3><ul><li><a href="index.html">Home</a></li><li><a href="profil.html">Profil</a></li><li><a href="project.html">Project</a></li><li><a href="kontak.html">Contact</a></li></ul></div>
+    <div><h3>Jam buka (contoh)</h3><p>Setiap hari<br>10.00 – 22.00 WIB</p></div>
+  </div>
+  <div class="container copy">© <span id="year">2026</span> Kedai Kopi Senja. Hak cipta dilindungi.</div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>

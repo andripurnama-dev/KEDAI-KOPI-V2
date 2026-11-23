@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Ilustrasi biji kopi">
+  <rect width="400" height="300" fill="#3B2217"/>
+  <g fill="#6B3E26" stroke="#2A1710" stroke-width="3">
+    <ellipse cx="90" cy="90" rx="44" ry="30" transform="rotate(-25 90 90)"/>
+    <ellipse cx="210" cy="70" rx="44" ry="30" transform="rotate(15 210 70)"/>
+    <ellipse cx="320" cy="120" rx="44" ry="30" transform="rotate(-40 320 120)"/>
+    <ellipse cx="140" cy="190" rx="44" ry="30" transform="rotate(30 140 190)"/>
+    <ellipse cx="260" cy="200" rx="44" ry="30" transform="rotate(-10 260 200)"/>
+    <ellipse cx="60" cy="250" rx="44" ry="30" transform="rotate(10 60 250)"/>
+    <ellipse cx="350" cy="250" rx="44" ry="30" transform="rotate(35 350 250)"/>
+  </g>
+  <g stroke="#2A1710" stroke-width="4" stroke-linecap="round" fill="none">
+    <path d="M62 105 Q90 85 118 75"/><path d="M182 82 Q210 70 238 58"/><path d="M292 140 Q320 115 348 95"/>
+    <path d="M112 205 Q140 185 168 175"/><path d="M232 205 Q260 195 288 195"/><path d="M32 258 Q60 245 88 238"/><path d="M322 235 Q350 245 378 262"/>
+  </g>
+</svg>

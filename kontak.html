@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact — Kedai Kopi Senja</title>
+<meta name="description" content="Hubungi Kedai Kopi Senja untuk pertanyaan, acara, dan kolaborasi.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Lewati ke konten</a>
+<header class="site-header">
+  <div class="container nav">
+    <a class="logo" href="index.html">☕ Kedai Kopi <span>Senja</span></a>
+    <ul class="menu" id="menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="profil.html">Profil</a></li>
+      <li><a href="project.html">Project</a></li>
+      <li><a href="kontak.html" aria-current="page">Contact</a></li>
+    </ul>
+    <div class="nav-tools">
+      <button class="icon-btn" id="themeToggle" type="button" aria-label="Ganti tema">🌙</button>
+      <button class="icon-btn burger" id="burger" type="button" aria-label="Buka menu" aria-expanded="false" aria-controls="menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <section class="section">
+    <div class="container">
+      <div class="reveal">
+        <span class="eyebrow">Contact</span>
+        <h1>Mari ngobrol</h1>
+        <p class="lead">Pertanyaan, pesanan acara, atau ide kolaborasi — kirim pesan, kami balas secepatnya.</p>
+      </div>
+      <div class="contact-grid">
+        <form id="contactForm" novalidate class="reveal">
+          <div class="field"><label for="nama">Nama</label><input id="nama" name="nama" type="text" autocomplete="name" aria-describedby="err-nama"><div class="err" id="err-nama" role="alert"></div></div>
+          <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" aria-describedby="err-email"><div class="err" id="err-email" role="alert"></div></div>
+          <div class="field"><label for="topik">Topik</label>
+            <select id="topik" name="topik" aria-describedby="err-topik"><option value="">Pilih topik…</option><option>Pertanyaan umum</option><option>Pesanan acara</option><option>Kolaborasi</option><option>Lainnya</option></select>
+            <div class="err" id="err-topik" role="alert"></div></div>
+          <div class="field"><label for="pesan">Pesan</label><textarea id="pesan" name="pesan" aria-describedby="err-pesan"></textarea><div class="err" id="err-pesan" role="alert"></div></div>
+          <button class="btn btn-primary" type="submit">Kirim Pesan</button>
+          <p class="sim" style="margin-top:.8rem">Demo: formulir belum terhubung ke server, pesan tidak benar-benar terkirim.</p>
+          <div class="notice" id="formNotice" role="status"></div>
+        </form>
+        <aside class="reveal d1">
+          <ul class="info-list">
+            <li><span aria-hidden="true">📍</span><div><b>Alamat</b><br>Isi alamat asli kedai (contoh)</div></li>
+            <li><span aria-hidden="true">🕙</span><div><b>Jam buka</b><br>Setiap hari 10.00 – 22.00 WIB (contoh)</div></li>
+            <li><span aria-hidden="true">✉️</span><div><b>Email</b><br>Isi email asli (contoh)</div></li>
+            <li><span aria-hidden="true">📱</span><div><b>WhatsApp / Instagram</b><br>Isi akun asli (contoh)</div></li>
+          </ul>
+        </aside>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container foot">
+    <div><h3>☕ Kedai Kopi Senja</h3><p>Kopi hangat untuk setiap senja.</p></div>
+    <div><h3>Halaman</h3><ul><li><a href="index.html">Home</a></li><li><a href="profil.html">Profil</a></li><li><a href="project.html">Project</a></li><li><a href="kontak.html">Contact</a></li></ul></div>
+    <div><h3>Jam buka (contoh)</h3><p>Setiap hari<br>10.00 – 22.00 WIB</p></div>
+  </div>
+  <div class="container copy">© <span id="year">2026</span> Kedai Kopi Senja. Hak cipta dilindungi.</div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>

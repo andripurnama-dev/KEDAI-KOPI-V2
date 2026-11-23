@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Ilustrasi latte art">
+  <rect width="400" height="300" fill="#E8D5B8"/>
+  <circle cx="200" cy="150" r="118" fill="#FFF8EE"/><circle cx="200" cy="150" r="96" fill="#6B3E26"/>
+  <circle cx="200" cy="150" r="78" fill="#C98F5A"/>
+  <path d="M200 205 C150 170 150 120 175 112 C190 108 200 120 200 128 C200 120 210 108 225 112 C250 120 250 170 200 205Z" fill="#FFF8EE"/>
+  <path d="M200 195 V135 M200 175 L180 150 M200 175 L220 150" stroke="#C98F5A" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <path d="M318 130 q40 0 40 24 t-40 24" fill="none" stroke="#FFF8EE" stroke-width="14" stroke-linecap="round"/>
+</svg>
